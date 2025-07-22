@@ -1,7 +1,7 @@
 import { Download, Eye, MessageSquare } from "lucide-react";
 import React from "react";
-import { useCourseStore } from "../../store/courseStore";
-import { CourseStepContent } from "../../types/course";
+import { useCourseStore } from "../../../store/courseStore";
+import { CourseStepContent } from "../../../types/course";
 
 const TelegramPreview: React.FC = () => {
   const { getCurrentCourse } = useCourseStore();

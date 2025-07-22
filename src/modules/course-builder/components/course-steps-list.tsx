@@ -6,7 +6,7 @@ import {
   Trash2,
 } from "lucide-react";
 import React from "react";
-import { CourseStep } from "../../types/course";
+import { CourseStep } from "../../../../types/course";
 
 interface CourseStepsListProps {
   steps: CourseStep[];

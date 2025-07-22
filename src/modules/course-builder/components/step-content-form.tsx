@@ -9,8 +9,8 @@ import {
 } from "lucide-react";
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { useCourseStore } from "../../store/courseStore";
-import { CourseStepContent } from "../../types/course";
+import { useCourseStore } from "../../../store/courseStore";
+import { CourseStepContent } from "../../../types/course";
 
 interface StepContentFormProps {
   contents: CourseStepContent[];
